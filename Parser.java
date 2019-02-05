@@ -23,7 +23,7 @@ public class Parser {
             lang();
 
         }
-        System.out.println("Все проверки пройдены");
+        System.out.println("Все проверки пройденыtt");
 
 
     }
@@ -187,7 +187,7 @@ public class Parser {
     void own_st() throws Exception{
         match();
         if (!token.type.equals("OWNST")) {
-            throw new Exception("ошибка в методе own_st на токене" + token.type + " " + token.token);
+            throw new Exception("ошибка в методе own_st на токене ШОК" + token.type + " " + token.token);
         }
             token = tokens.poll();
     }
